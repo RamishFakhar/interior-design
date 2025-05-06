@@ -1,0 +1,12 @@
+.git
+.github
+node_modules
+.gitignore
+README.md
+README-pt.md
+.vscode
+.eslintrc.json
+.eslintignore
+LICENSE
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md 
