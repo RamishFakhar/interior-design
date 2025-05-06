@@ -6,5 +6,8 @@
   },
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
-  ]
+  ],
+  "framework": "nextjs",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run vercel-build"
 } 
