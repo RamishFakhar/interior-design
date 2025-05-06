@@ -60,7 +60,7 @@ const Carousel: React.FC<CarouselProps> = ({
         justifyContent="flex-end"
         paddingX={['1.5em', '1.5em', '1.5em', '15%']}
         paddingBottom="4rem"
-        zIndex="2"
+        zIndex={2}
       >
         {captions[currentSlide] && (
           <>
@@ -98,7 +98,7 @@ const Carousel: React.FC<CarouselProps> = ({
         justifyContent="space-between" 
         top="50%" 
         transform="translateY(-50%)"
-        zIndex="2"
+        zIndex={2}
         px={4}
       >
         <IconButton
@@ -126,7 +126,7 @@ const Carousel: React.FC<CarouselProps> = ({
         bottom="20px" 
         width="100%" 
         justifyContent="center"
-        zIndex="2"
+        zIndex={2}
       >
         {images.map((_, index) => (
           <Box
